@@ -3,6 +3,7 @@
         {
             "name": "Mac",
             "includePath": [
+                "/usr/local/lib/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [],
@@ -13,7 +14,7 @@
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "macos-gcc-x64"
+            "intelliSenseMode": "macos-clang-x64"
         }
     ],
     "version": 4
